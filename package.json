@@ -1,5 +1,5 @@
 {
-  "name": "epic-examen",
+  "name": "front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,14 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "server":"npx json-server -p  4000 -w data.json"
+    "preview": "vite preview"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.9",
-    "json-server": "^1.0.0-beta.3",
-    "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.2",
